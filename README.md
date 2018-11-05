@@ -53,3 +53,11 @@ $cleos wallet unlock
 
 password: Unlocked: default
 ```
+
+### Test accounts
+
+Create **alice** and **bob** accounts
+```
+cleos create account eosio bob EOS6s7LD4VvJjNBCxzcoaeVztvZ7wVUizePiggcDzfATyEThCJJXo 
+cleos create account eosio alice EOS6s7LD4VvJjNBCxzcoaeVztvZ7wVUizePiggcDzfATyEThCJJXo
+```
