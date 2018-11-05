@@ -5,6 +5,38 @@ Clone code from eosio github
 $ git clone https://github.com/EOSIO/eosio.contracts --branch v1.4.0 --single-branch
 ```
 
+* **Warning:** check is exist **account** and **currency_stats** in **ABI structs**
+```
+{
+  "name": "account",
+  "base": "",
+  "fields": [
+    {
+      "name":"balance", 
+      "type":"asset"
+    }
+  ]
+},
+{
+  "name": "currency_stats",
+  "base": "",
+  "fields": [
+    {
+      "name":"supply", 
+      "type":"asset"
+    },
+    {
+      "name":"max_supply", 
+      "type":"asset"
+    },
+    {
+      "name":"issuer", 
+      "type":"name"
+    }
+  ]
+}
+```
+
 ### Decsription
 
 **Create token-contract** (only contract owner)
