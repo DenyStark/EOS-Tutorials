@@ -43,3 +43,5 @@ $ cleos push action contract func '["alice"]' -p alice@active
 ```
 
 * ```push``` for **non-return** functions, ```get``` for **return** functions
+* ```-d``` - don't broadcast
+* ```-j``` - return transaction as json
