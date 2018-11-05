@@ -41,3 +41,5 @@ Run function **func**
 $ cleos push action contract func '["bob"]' -p bob@active
 $ cleos push action contract func '["alice"]' -p alice@active
 ```
+
+* ```push``` for **non-return** functions, ```get``` for **return** functions
