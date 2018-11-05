@@ -3,24 +3,24 @@ EOS Dictionary
 
 ### Docker container
 
-**Start** eosio
+**Start eosio**
 ```
 $ docker start eosio
 ```
 
-**Stop** eosio
+**Stop eosio**
 ```
 $ docker stop eosio
 ```
 
-Config ports
+**Config ports**
 ```
 $ alias cleos='docker exec -it eosio /opt/eosio/bin/cleos --url http://127.0.0.1:7777 --wallet-url http://127.0.0.1:5555'
 ```
 
 ### Wallet
 
-Create
+**Create**
 ```
 $ cleos wallet create --to-console
 
@@ -30,14 +30,14 @@ Without password imported keys will not be retrievable.
 "PW5JMrwdBV1xZEEse4....................CkV1HHJ4sk3S6K2"
 ```
 
-Open
+**Open**
 ```
 $ cleos wallet open
 
 Opened: default
 ```
 
-List (* - unlocked wallet)
+**List** (```*``` - unlocked wallet)
 ```
 $ cleos wallet list
 
@@ -47,7 +47,7 @@ Wallets:
 ]
 ```
 
-Unlock
+**Unlock**
 ```
 $cleos wallet unlock
 
